@@ -9,3 +9,15 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;  
 }
+
+#cityInput {
+    background-color: rgb(255,255,255);
+    color: rgb(25, 25, 80);
+    height: flex;
+    width: 25%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
