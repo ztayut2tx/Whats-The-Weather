@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(85, 98, 109);
+    background-color: rgb(4, 60, 105);
 }
 
 header {
-    background-color: rgb(85, 98, 80);
+    background-color: rgb(93, 87, 128);
     color:  rgb(255,255,255);
     text-align: center;
     padding-top: 10px;
@@ -11,8 +11,8 @@ header {
 }
 
 #cityInput {
-    background-color: rgb(255,255,255);
-    color: rgb(25, 25, 80);
+    background-color: #007bff;
+    color: rgb(244, 244, 250);
     height: flex;
     width: 25%;
     float: left;
@@ -21,3 +21,45 @@ header {
     padding: 10px;
     border-radius: 10px;
 }
+
+#results {
+    background-color: #007bff;
+    color: rgb(250, 246, 246);
+    height: 250px;
+    width: 70%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+#forecast {
+    color: rgb(247, 241, 241);
+    height: 250px;
+    width: 70%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+#day {
+    background-color:#007bff;
+    color:  rgb(255,255,255);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#searchBtn {
+    background-color: white;
+}
+
+
