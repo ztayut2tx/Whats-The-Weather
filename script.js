@@ -20,9 +20,10 @@ $("#newBtn").on("click", function(){
 });
 //ajax function to call from api and display to designated area
 function loadWeather(){
-    var APIkey = "c0d3d17620b893f264681d297097a6e0";
+    var APIkey = "d885e849aac0b3bbbb9e84a600f2da90";
     var currentURL = "https://api.openweathermap.org/data/2.5/weather?q=" + searchInput + "&appid=" + APIkey;
-    
+  
+    //Displays weather for currently searched city 
     $.ajax({
         url: currentURL,
         method: "GET"
@@ -35,7 +36,8 @@ function loadWeather(){
         var lat = res1.coord.lat;
         var lon = res1.coord.lon;
         var forcastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&units=imperial&exclude=minutely,hourly,alerts&appid=" + APIkey;
-        
+       
+        //Displays five day forecast for currently searched city 
         $.ajax({
             url: forcastURL,
             method: "GET"
